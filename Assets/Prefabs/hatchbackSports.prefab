@@ -135,7 +135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 917418393251463853}
-  - component: {fileID: 3348607542685767785}
+  - component: {fileID: 7466977313129626132}
   m_Layer: 0
   m_Name: Kart
   m_TagString: Untagged
@@ -159,7 +159,7 @@ Transform:
   m_Father: {fileID: 917418395106319056}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3348607542685767785
+--- !u!114 &7466977313129626132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,18 +168,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 917418393251463858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a25f7c12724ba4e8c101f8f5a370b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4aa69687dbe249d47b8eaeb048acc3ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kartModel: {fileID: 7229854106550164869}
+  kartModel: {fileID: 917418393251463853}
   kartNormal: {fileID: 917418393804369341}
   sphere: {fileID: 917418395128668731}
-  acceleration: 65
+  acceleration: 35
   steering: 15
   gravity: 25
   layerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 0
   frontWheels: {fileID: 4856403449433280664}
   backWheels: {fileID: 5717097455741686897}
 --- !u!1 &917418393804369346
